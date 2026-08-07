@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64">
-  <g transform="translate(0,0)">
-    <circle cx="32" cy="32" r="30" fill="#10151f" stroke="#212a38" stroke-width="1.5"/>
+  <g>
+    <circle cx="32" cy="32" r="30" fill="#eeeefd" stroke="#d8d8fb" stroke-width="1.5"/>
     <path d="M8,32 C13,18 19,46 26,32 C33,18 39,46 46,32 C50,26 53,32 56,32"
-          fill="none" stroke="#3adbc4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="8" cy="32" r="3.2" fill="#3adbc4"/>
+          fill="none" stroke="#5b5fef" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="8" cy="32" r="3.2" fill="#f5a623"/>
   </g>
-  <text x="76" y="42" font-family="'Space Grotesk', sans-serif" font-weight="700"
-        font-size="32" letter-spacing="1" fill="#edeff4">SINAL</text>
+  <text x="76" y="42" font-family="'Sora', sans-serif" font-weight="800"
+        font-size="32" letter-spacing="-0.5" fill="#14122d">SINAL</text>
 </svg>
