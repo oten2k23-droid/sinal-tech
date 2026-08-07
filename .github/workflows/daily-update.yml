@@ -1,0 +1,34 @@
+name: Atualização diária do SINAL
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-conteudo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Gerar post do dia
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate.js
+
+      - name: Commitar e enviar mudanças
+        run: |
+          git config user.name "SINAL Bot"
+          git config user.email "bot@sinal.local"
+          git add posts.json
+          git diff --staged --quiet && echo "Nada novo para commitar" || git commit -m "Conteúdo diário: $(date +'%Y-%m-%d')"
+          git push
