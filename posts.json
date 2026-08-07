@@ -2,14 +2,14 @@
   {
     "date": "2026-08-07",
     "noticia": {
-      "tag": "IA",
-      "title": "Bem-vindo ao SINAL",
-      "summary": "Este é o primeiro registro do arquivo. A partir de amanhã, este espaço vai trazer todo dia uma notícia real do mundo da tecnologia — IA, redes, hardware, software — resumida de forma direta, sem enrolação."
+      "tag": "Apps",
+      "title": "WhatsApp vai ganhar papéis de parede animados no Android",
+      "summary": "O app está testando fundos de tela animados para as conversas, parte de uma leva de recursos visuais (incluindo temas em destaque e estilo minimalista) para deixar os chats mais personalizados."
     },
     "dica": {
-      "tag": "Produtividade",
-      "title": "Como acompanhar tecnologia sem se afogar em notícia",
-      "summary": "Escolha 2 ou 3 fontes confiáveis e leia só o resumo do dia, não a timeline inteira. Menos ruído, mais sinal — é literalmente a ideia deste site."
+      "tag": "Segurança",
+      "title": "Reveja suas configurações de segurança hoje",
+      "summary": "Pesquisa recente aponta que a maioria dos brasileiros adultos já sofreu tentativa de golpe digital. Ative a verificação em duas etapas no WhatsApp, e-mail e bancos — é o ajuste de maior impacto contra esse tipo de fraude."
     }
   },
   {
@@ -23,6 +23,19 @@
       "tag": "Segurança",
       "title": "Ative a verificação em duas etapas hoje",
       "summary": "Se você ainda não ativou 2FA no e-mail e nas redes sociais, esse é o ajuste de 5 minutos com maior retorno em segurança digital que existe."
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "noticia": {
+      "tag": "IA",
+      "title": "Bem-vindo ao SINAL",
+      "summary": "Este é o primeiro registro do arquivo. A partir de amanhã, este espaço vai trazer todo dia uma notícia real do mundo da tecnologia — IA, redes, hardware, software — resumida de forma direta, sem enrolação."
+    },
+    "dica": {
+      "tag": "Produtividade",
+      "title": "Como acompanhar tecnologia sem se afogar em notícia",
+      "summary": "Escolha 2 ou 3 fontes confiáveis e leia só o resumo do dia, não a timeline inteira. Menos ruído, mais sinal — é literalmente a ideia deste site."
     }
   }
 ]
