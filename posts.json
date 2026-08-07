@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-08-07",
+    "noticia": {
+      "tag": "IA",
+      "title": "Bem-vindo ao SINAL",
+      "summary": "Este é o primeiro registro do arquivo. A partir de amanhã, este espaço vai trazer todo dia uma notícia real do mundo da tecnologia — IA, redes, hardware, software — resumida de forma direta, sem enrolação."
+    },
+    "dica": {
+      "tag": "Produtividade",
+      "title": "Como acompanhar tecnologia sem se afogar em notícia",
+      "summary": "Escolha 2 ou 3 fontes confiáveis e leia só o resumo do dia, não a timeline inteira. Menos ruído, mais sinal — é literalmente a ideia deste site."
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "noticia": {
+      "tag": "Redes",
+      "title": "Conectividade no Brasil segue em expansão",
+      "summary": "Provedores regionais continuam levando fibra óptica para áreas antes atendidas só por rádio, melhorando velocidade e estabilidade em cidades menores pelo país."
+    },
+    "dica": {
+      "tag": "Segurança",
+      "title": "Ative a verificação em duas etapas hoje",
+      "summary": "Se você ainda não ativou 2FA no e-mail e nas redes sociais, esse é o ajuste de 5 minutos com maior retorno em segurança digital que existe."
+    }
+  }
+]
